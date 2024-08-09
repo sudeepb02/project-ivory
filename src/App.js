@@ -1,14 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Eas from "./Eas";
 
 function App() {
   return (
     <div>
-      <img src={logo} alt="logo" /> 
+      <img src={logo} alt="logo" />
       <h1>Hello World!</h1>
 
-      <button>Button 1</button>
-      <button>Button 2</button>
+      <Eas />
     </div>
   );
 }
